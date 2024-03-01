@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RGB Input Color</title>
+  <link rel="shortcut icon" href="img/color-palette.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="container__box">
+      <div class="container__box__color">
+        <label for="red"> Red (R)</label>
+        <input id="red" type="range" min="0" max="255" step="1" value="23">
+        <p id="red-text"></p>
+      </div>
+
+      <div class="container__box__color">
+        <label for="green"> Green (G)</label>
+        <input id="green" type="range" min="0" max="255" step="1" value="41">
+        <p id="green-text"></p>
+      </div>
+
+      <div class="container__box__color">
+        <label for="blue"> Blue (B)</label>
+        <input id="blue" type="range" min="0" max="255" step="1" value="56">
+        <p id="blue-text"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
